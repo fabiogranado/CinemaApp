@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "377714009032",
+    "firebase_url": "https://cineapp-c25d1.firebaseio.com",
+    "project_id": "cineapp-c25d1",
+    "storage_bucket": "cineapp-c25d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:377714009032:android:9b98f5735a045184",
+        "android_client_info": {
+          "package_name": "com.example.fabiogranado.cineapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "377714009032-5tep47uu0k1goh8nq4rmtfe27s5tetmb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fabiogranado.cineapp",
+            "certificate_hash": "b0f0604a578287686cfe55192d729063aae7ef0c"
+          }
+        },
+        {
+          "client_id": "377714009032-uhkbi3hkit6dqadlhh4gigv6vb0knfmj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPHGxcRm4ameaAoI49gNdHuZhPjy2qnro"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "377714009032-uhkbi3hkit6dqadlhh4gigv6vb0knfmj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

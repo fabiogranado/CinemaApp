@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminAddNewProductActivity">
+
+    <ImageView
+        android:id="@+id/select_product_image"
+        android:layout_width="121dp"
+        android:layout_height="97dp"
+        android:cropToPadding="false"
+        android:src="@drawable/select_product_image" />
+
+    <EditText
+        android:id="@+id/film_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/select_product_image"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="50dp"
+        android:padding="20dp"
+        android:hint="Film Name"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        />
+
+
+    <EditText
+        android:id="@+id/film_time1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/film_name"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="6dp"
+        android:padding="20dp"
+        android:hint="Time"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        />
+
+
+    <EditText
+        android:id="@+id/film_time2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/film_time1"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="6dp"
+        android:padding="20dp"
+        android:hint="Time"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        />
+
+    <EditText
+        android:id="@+id/film_time3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/film_time2"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="6dp"
+        android:padding="20dp"
+        android:hint="Time"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        />
+
+    <Button
+        android:id="@+id/add_new_product"
+        android:layout_width="326dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp"
+        android:background="@color/green"
+        android:padding="17dp"
+        android:text="Add Film"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>
